@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family:Karla, sans-serif;
+
+}
+
+.speakers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 270vh;
+    background: #231769;
+}
+
+.stext{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    
+}
+
+.stext1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 10vh;
+    color: white;
+    
+}
+
+
+
+.sline{
+    position: relative;
+    left: -3vh;
+    height: 1vh;
+    width: 15%;
+    background: #ec398b;
+    
+}
+
+.stext2{
+    width: 40%;
+    height: 20vh;
+    color: white;
+    
+}
+
+.stext2>h1{
+    font-size: 40px;
+
+}
+
+.sblock{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-around;
+    height: 200vh;
+    
+}
+
+.s1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    height: 73vh;
+    background: #362a80;
+}
+
+.s1>img{
+    width: 50%;
+    position: relative;
+    top: -15vh;
+    border-radius: 50%;
+}
+
+.s1>h1{
+    color: white;
+    cursor: pointer;
+}
+
+.s1>h2{
+    font-size: 15px;
+    color: #ec398b;
+}
+.s1>p{
+    color: #b4b3c5;
+    text-align: center;
+}
+
+.sicon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 10vh;
+    
+}
+
+.sicon>i{
+    font-size: 20px;
+    color: #b4b3c5;
+    padding: 12px 15px;
+}
+
+.sicon>i:hover{
+    background: #ed4b95;
+    padding: 12px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    background: #ec398b;
+    top: 0%;
+    left: 0%;
+    bottom:0%;
+    right: 0%;
+    overflow: hidden;
+    z-index: -1;
+    transition: .5s ease;
+
+}
+
+.s1:hover .overlay{
+    z-index: 1;
+    transition: .8s ease;
+    top: 98%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    opacity: .8;
+}
+
+.speakers>button{
+    width: 10%;
+    height: 8vh;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background: #ED4692;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.speakers>button:hover{
+    transform: translateY(-5px);
+    transition: .3s;
+    background: #ed4b95;
+    
+}
+
+.moment{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #362a80;
+    height: 150vh;
+}
+
+.mtext{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    
+    
+}
+
+.mtext1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 10vh;
+    color: white;
+    
+}
+
+
+
+.mline{
+    position: relative;
+    left: -3vh;
+    height: 1vh;
+    width: 15%;
+    background: #ec398b;
+    
+}
+
+.mtext2{
+    width: 40%;
+    height: 20vh;
+    color: white;
+    
+}
+
+.mtext2>h1{
+    font-size: 40px;
+
+}
+
+.mblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-image: linear-gradient(rgba(77,51,159,.5),rgba(77,51,159,.5)),url(./img/video-thumb.png);
+    height: 80vh;
+    background-size: 100% 100%;
+}
+
+.mblock>button{
+    background: #e93888;
+    border: none;
+    color: white;
+    width: 10%;
+    height: 15vh;
+    border-radius: 50%;
+    font-size: 40px;
+    cursor: pointer;
+}
