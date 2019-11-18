@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.a1{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(35,23,105);
+}
+.a2{
+    height: 20vh;
+    width: 100%;
+    margin-top: 50px;
+}
+.a3{
+    height: 20vh;
+    width: 20%;
+}
+
+.a4{
+    height: 20vh;
+    width: 20%;
+    margin-left: 600px;
+    margin-top: -133px;
+    
+
+}
+
+.a3 h1{
+ color: aliceblue;   
+}
+.a5{
+    height: 1vh;
+    width: 20%;
+    background-color: #ec398b;
+}
+.a4 h1{
+    color: aliceblue;
+}
+.a6{
+    height: 6vh;
+    width: 18%;
+    position:relative;
+    /* border:1px solid black; */
+    overflow: hidden;
+}
+.outer{
+    /* border:1px solid red; */
+    width:90%;
+    left:5%;
+    top:10%;
+    position:RELATIVE;
+    display: flex;
+    height:30vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .inner{
+        /* border:1px solid yellow; */
+        width:80%;
+        /* align-self: center; */
+    position:relative;
+    left:10%;
+        display: flex;
+        /* height:10vh; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        } 
+
+.a6 img{
+    position:absolute;
+    left:20px;
+    /* height:6vh; */
+}
+
+.im1{
+    top:45px;
+}
+
+.a6:hover .im1{top:0;
+transition-duration:.5s;
+}
+
+
+.a7{
+    height: 9vh;
+    width: 12%;
+    position:relative;
+    border:1px solid black;
+    overflow: hidden;
+}
